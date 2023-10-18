@@ -6,15 +6,430 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="Marketing site - aid for your business">
    <link rel="stylesheet" href="/styles.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
    <title>Growfy</title>
 </head>
 
 <body>
    <div class="wrapper">
-      <header class="header"></header>
-      <main class="page"></main>
+      <header class="header">
+         <div class="header__container">
+            <a href="#" class="header__logo"><img src="/img/header-logo.svg" alt="Logo Growfy"></a>
+            <nav class="header__nav nav-header">
+               <ul class="nav-header__list">
+                  <li class="nav-header__item"><a class="nav-header__link" href="#">Home</a></li>
+                  <li class="nav-header__item"><a class="nav-header__link" href="#">About</a></li>
+                  <li class="nav-header__item"><a class="nav-header__link" href="#">Pages</a></li>
+                  <li class="nav-header__item"><a class="nav-header__link" href="#">Services</a></li>
+               </ul>
+            </nav>
+            <a class="header__cart cart-header" href="#">
+               <div class="cart-header__text">Cart</div>
+               <div class="cart-header__quantity">0</div>
+            </a>
+            <a class="header__button button" href="#">Get started</a>
+            <div class="header__burger">
+               <span></span>
+            </div>
+         </div>
+      </header>
+      <main class="page">
+         <section class="page__main main">
+            <div class="main__container">
+               <div class="main__content">
+                  <h1 class="main__title title">Marketing solutions that grow your business.</h1>
+                  <div class="main__title-decor decor"><img src="/img/dote-decor.svg" alt=""></div>
+                  <div class="main__text text">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse
+                        varius
+                        enim
+                        in eros elementum tristique. Duis
+                        cursus, mi quis viverra ornare, eros dolor.</p>
+                  </div>
+                  <div class="main__links">
+                     <a href="#" class="main__services button">Our services</a>
+                     <a href="#" class="main__contact button">Contact us</a>
+                  </div>
+               </div>
+               <div class="main__pictures">
+                  <div class="main__column">
+                     <div class="main__item main__item_1">
+                        <img src="/img/main/main-grid-1.jpg" alt="Smiling girl green background">
+                     </div>
+                     <div class="main__item main__item_2">
+                        <img src="/img/main/main-grid-2.jpg" alt="Smiling man orange background">
+                     </div>
+                  </div>
+                  <div class="main__column">
+                     <div class="main__item main__item_3">
+                        <img src="/img/main/main-grid-3.jpg" alt="Ok gesture man yellow background">
+                     </div>
+                     <div class="main__item main__item_4">
+                        <img src="/img/main/main-grid-4.jpg" alt="Smartphone man blue background">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page__enterprises enterprises">
+            <div class="enterprises__container">
+               <h2 class="enterprises__title">TRUSTED BY startups and large enterprises</h2>
+               <div class="enterprises__body">
+
+                  <!-- Slider main container -->
+                  <div class="enterprises__swiper swiper-enterprises swiper">
+                     <!-- Additional required wrapper -->
+                     <div class="swiper-enterprises__wrapper swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-enterprises__slide slide-swiper swiper-slide">
+                           <div class="slide-swiper__brand"><img src="/img/enterprises/brand1.svg" alt=""></div>
+                           <div class="slide-swiper__brand"><img src="/img/enterprises/brand2.svg" alt=""></div>
+                           <div class="slide-swiper__brand"><img src="/img/enterprises/brand3.svg" alt=""></div>
+                           <div class="slide-swiper__brand"><img src="/img/enterprises/brand4.svg" alt=""></div>
+                           <div class="slide-swiper__brand"><img src="/img/enterprises/brand5.svg" alt=""></div>
+                        </div>
+                        <div class="swiper-enterprises__slide slide-swiper swiper-slide">
+                           <div class="slide-swiper__brand"><img src="/img/enterprises/brand1.svg" alt=""></div>
+                           <div class="slide-swiper__brand"><img src="/img/enterprises/brand2.svg" alt=""></div>
+                           <div class="slide-swiper__brand"><img src="/img/enterprises/brand3.svg" alt=""></div>
+                           <div class="slide-swiper__brand"><img src="/img/enterprises/brand4.svg" alt=""></div>
+                           <div class="slide-swiper__brand"><img src="/img/enterprises/brand5.svg" alt=""></div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </section>
+         <section class="page__services services">
+            <div class="services__container">
+               <div class="services__content">
+                  <div class="services__category">
+                     <a href="#" class="services__services border-button">Services</a>
+                  </div>
+                  <h2 class="services__title title">Services we offer</h2>
+                  <div class="services__text text">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse
+                        varius enim in eros elementum tristique. Duis
+                        cursus, mi quis viverra ornare, eros dolor.</p>
+                  </div>
+                  <div class="services__link">
+                     <a href="#" class="services__button button">All services</a>
+                  </div>
+               </div>
+
+               <div class="services__offers offers-services">
+                  <div class="offers-services__body">
+
+                     <div class="offers-services__column">
+                        <article class="offers-services__item item">
+                           <div class="item__icon"><img src="/img/services/thumb-up-icon.svg"
+                                 alt="Thumb-up icon in Social Media Marketing category"></div>
+                           <h4 class="item__title">Social Media Marketing</h4>
+                           <div class="item__text">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna
+                                 adipiscing praesent velit.</p>
+                           </div>
+                        </article>
+
+                        <article class="offers-services__item item">
+                           <div class="item__icon"><img src="/img/services/mail-icon.svg"
+                                 alt="Mail Icon in Email Marketing category"></div>
+                           <h4 class="item__title">Email Marketing</h4>
+                           <div class="item__text">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna
+                                 adipiscing praesent velit.</p>
+                           </div>
+                        </article>
+                     </div>
+
+                     <div class="offers-services__column">
+                        <article class="offers-services__item item">
+                           <div class="item__icon"><img src="/img/services/dollar-icon.svg"
+                                 alt="Dollar icon in Paid Advertising category"></div>
+                           <h4 class="item__title">Paid Advertising</h4>
+                           <div class="item__text">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna
+                                 adipiscing praesent velit.</p>
+                           </div>
+                        </article>
+
+                        <article class="offers-services__item item">
+                           <div class="item__icon"><img src="/img/services/loop-icon.svg"
+                                 alt="Loop icon in SEO Optimization category"></div>
+                           <h4 class="item__title">SEO Optimization</h4>
+                           <div class="item__text">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu enim urna
+                                 adipiscing praesent velit.</p>
+                           </div>
+                        </article>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page__choose choose">
+            <div class="choose__container">
+
+               <div class="choose__pictures">
+                  <div class="choose__decor decor"><img src="/img/dote-decor.svg" alt=""></div>
+                  <div class="choose__picture choose__picture-first"><img src="/img/choose/girl1.jpg" alt=""></div>
+                  <div class="choose__picture choose__picture-second"><img src="/img/choose/girl2.jpg" alt=""></div>
+               </div>
+
+               <div class="choose__content">
+                  <div class="choose__category">
+                     <a href="#" class="choose__services border-button">Why choose us</a>
+                  </div>
+                  <h2 class="choose__title title">
+                     We help great brands scale with content marketing.
+                  </h2>
+                  <div class="choose__text text">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, suspendisse varius enim in eros
+                        elementum tristique. Duis
+                        cursus, mi quis viverra ornare, eros dolor.</p>
+                  </div>
+                  <ul class="choose__list">
+                     <li class="choose__item">This is some text inside of a div.</li>
+                     <li class="choose__item">This is some text inside of a div.</li>
+                     <li class="choose__item">This is some text inside of a div.</li>
+                     <li class="choose__item">This is some text inside of a div.</li>
+                  </ul>
+               </div>
+
+
+            </div>
+         </section>
+         <section class="page__counter counter">
+            <div class="counter__container">
+               <div class="counter__columns">
+
+                  <div class="counter__item item-counter">
+                     <div class="item-counter__count">1.2M+</div>
+                     <div class="item-counter__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</p>
+                     </div>
+                  </div>
+                  <div class="counter__item item-counter">
+                     <div class="item-counter__count">98%</div>
+                     <div class="item-counter__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</p>
+                     </div>
+                  </div>
+
+                  <div class="counter__item item-counter">
+                     <div class="item-counter__count">3.4B</div>
+                     <div class="item-counter__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</p>
+                     </div>
+                  </div>
+                  <div class="counter__item item-counter">
+                     <div class="item-counter__count">10+</div>
+                     <div class="item-counter__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</p>
+                     </div>
+                  </div>
+
+               </div>
+
+               <div class="counter__picture">
+                  <div class="counter__image">
+                     <img src="/img/counter/counter-boy.jpg" alt="Picture of boy in counter section">
+                  </div>
+               </div>
+            </div>
+
+         </section>
+         <section class="page__get-in-touch get-in-touch">
+            <div class="get-in-touch__container">
+
+               <div class="get-in-touch__content content">
+                  <div class="get-in-touch__category">
+                     <a href="#" class="get-in-touch__services border-button">Testimonials</a>
+                  </div>
+                  <h2 class="get-in-touch__title title">
+                     See what our clients say
+                  </h2>
+                  <div class="get-in-touch__text text">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                        elementum tristique. Duis
+                        cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.</p>
+                  </div>
+               </div>
+
+               <div class="get-in-touch__link link">
+                  <a href="#" class="get-in-touch__button button">Get in touch</a>
+               </div>
+
+               <div class="get-in-touch__columns">
+                  <article class="get-in-touch__client client">
+                     <div class="client__name-block">
+                        <div class="client__icon client__icon-1">
+                           <img src="/img/get-in-touch/client1.png" alt="First client's photo">
+                        </div>
+                        <div class="client__body">
+                           <div class="client-item__name">John Doe</div>
+                           <div class="client-item__company">Company Name</div>
+                        </div>
+                     </div>
+                     <h4 class="item-clients__title">"I recommend this agency"</h4>
+                     <div class="item-clients__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                           Suspendisse varius enim in eros elementum tristique. Duis
+                           cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.</p>
+                     </div>
+                     <div class="item-clients__rating rating-clients">
+                        <div class="rating-clients__body">
+                           <div class="rating-clients__active"></div>
+                           <div class="rating-clients__items">
+                              <input type="radio" class="rating-clients__item" value="1" name="rating">
+                              <input type="radio" class="rating-clients__item" value="2" name="rating">
+                              <input type="radio" class="rating-clients__item" value="3" name="rating">
+                              <input type="radio" class="rating-clients__item" value="4" name="rating">
+                              <input type="radio" class="rating-clients__item" value="5" name="rating">
+                           </div>
+                        </div>
+                        <div class="rating-clients__value">5</div>
+                     </div>
+                  </article>
+                  <article class="get-in-touch__client client">
+                     <div class="client__name-block">
+                        <div class="client__icon client__icon-2">
+                           <img src="/img/get-in-touch/client2.png" alt="First client's photo">
+                        </div>
+                        <div class="client__body">
+                           <div class="client-item__name">John Doe</div>
+                           <div class="client-item__company">Company Name</div>
+                        </div>
+                     </div>
+                     <h4 class="item-clients__title">"The support is awesome"</h4>
+                     <div class="item-clients__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                           Suspendisse varius enim in eros elementum tristique. Duis
+                           cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.</p>
+                     </div>
+                     <div class="item-clients__rating rating-clients">
+                        <div class="rating-clients__body">
+                           <div class="rating-clients__active"></div>
+                           <div class="rating-clients__items">
+                              <input type="radio" class="rating-clients__item" value="1" name="rating">
+                              <input type="radio" class="rating-clients__item" value="2" name="rating">
+                              <input type="radio" class="rating-clients__item" value="3" name="rating">
+                              <input type="radio" class="rating-clients__item" value="4" name="rating">
+                              <input type="radio" class="rating-clients__item" value="5" name="rating">
+                           </div>
+                        </div>
+                        <div class="rating-clients__value">5</div>
+                     </div>
+                  </article>
+                  <article class="get-in-touch__client client">
+                     <div class="client__name-block">
+                        <div class="client__icon client__icon-3">
+                           <img src="/img/get-in-touch/client3.png" alt="First client's photo">
+                        </div>
+                        <div class="client__body">
+                           <div class="client-item__name">John Doe</div>
+                           <div class="client-item__company">Company Name</div>
+                        </div>
+                     </div>
+                     <h4 class="item-clients__title">“A game changer for us”</h4>
+                     <div class="item-clients__text">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                           Suspendisse varius enim in eros elementum tristique. Duis
+                           cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.</p>
+                     </div>
+                     <div class="item-clients__rating rating-clients">
+                        <div class="rating-clients__body">
+                           <div class="rating-clients__active"></div>
+                           <div class="rating-clients__items">
+                              <input type="radio" class="rating-clients__item" value="1" name="rating">
+                              <input type="radio" class="rating-clients__item" value="2" name="rating">
+                              <input type="radio" class="rating-clients__item" value="3" name="rating">
+                              <input type="radio" class="rating-clients__item" value="4" name="rating">
+                              <input type="radio" class="rating-clients__item" value="5" name="rating">
+                           </div>
+                        </div>
+                        <div class="rating-clients__value">5</div>
+                     </div>
+                  </article>
+               </div>
+
+
+            </div>
+         </section>
+         <section class="page__posts posts">
+            <div class="posts__container">
+
+               <div class="posts__content content">
+                  <div class="posts__category">
+                     <a href="#" class="posts__services border-button">Blog</a>
+                  </div>
+                  <h2 class="posts__title title">
+                     Read our
+                     articles & news
+                  </h2>
+                  <div class="posts__text text">
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+                        elementum tristique. Duis
+                        cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.</p>
+                  </div>
+               </div>
+
+               <div class="posts__link link">
+                  <a href="#" class="posts__button button">All Posts</a>
+               </div>
+
+               <div class="posts__columns">
+                  <article class="posts__post post">
+                     <a class="post__picture" href=""><img src="/img/posts/proof.jpeg" alt="Social Media">
+                        <div class="post__label">Social Media</div>
+                     </a>
+                     <div class="post__content">
+                        <div class="post__date">August 28, 2022</div>
+                        <div class="post__title"><a href="">How to Use Social Proof in Marketing</a></div>
+                        <div class="post__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu
+                           enim
+                           urna adipiscing praesent velit viverra sit
+                           semper lorem.</div>
+                        <a href="" class="post__link">Read now</a>
+                     </div>
+                  </article>
+                  <article class="posts__post post">
+                     <a class="post__picture" href=""><img src="/img/posts/impression.jpeg" alt="SEO, impression">
+                        <div class="post__label">SEO</div>
+                     </a>
+                     <div class="post__content">
+                        <div class="post__date">August 28, 2022</div>
+                        <div class="post__title"><a href="">Make a great first impression with these titles</a></div>
+                        <div class="post__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu
+                           enim
+                           urna adipiscing praesent velit viverra sit
+                           semper lorem.</div>
+                        <a href="" class="post__link">Read now</a>
+                     </div>
+                  </article>
+                  <article class="posts__post post">
+                     <a class="post__picture" href=""><img src="/img/posts/attention.jpeg" alt="Social Media"></a>
+                     <div class="post__content">
+                        <div class="post__date">August 28, 2022</div>
+                        <div class="post__title"><a href="">How to Grab Your Reader’s Attention</a></div>
+                        <div class="post__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit lobortis arcu
+                           enim
+                           urna adipiscing praesent velit viverra sit
+                           semper lorem.</div>
+                        <a href="" class="post__link">Read now</a>
+                     </div>
+                  </article>
+               </div>
+
+
+            </div>
+         </section>
+      </main>
       <footer class="footer"></footer>
    </div>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
    <script src="/script.js"></script>
 </body>
 
