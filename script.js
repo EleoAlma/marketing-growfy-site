@@ -32,6 +32,38 @@ const swiper = new Swiper(".swiper-enterprises", {
   // Optional parameters
   autoHeight: true,
   loop: true,
+
+  keyboard: {
+    enabled: true,
+    onlyInViewport: true,
+  },
+
+
+  autoplay: {
+    delay: 2000,
+  }, 
+
+  speed: 800,
+
+  breakpoints: {
+    320: {
+      slidesPerView: 2,
+    },
+
+    575: {
+      slidesPerView: 3,
+    },
+
+    767: {
+      slidesPerView: 4,
+    },
+
+    991: {
+      slidesPerView: 5,
+    }
+  }
+
+
 });
 }
   

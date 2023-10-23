@@ -622,21 +622,58 @@ body {
    text-transform: uppercase;
 }
 
-.enterprises__body {}
+.enterprises__body {
+ 
+}
 
-.enterprises__swiper {}
+.enterprises__swiper {
 
-.swiper-enterprises {}
+}
 
-.swiper-enterprises__wrapper {}
+.swiper-enterprises {
 
-.swiper-enterprises__slide {}
+   position: relative;
+}
 
-.swiper-enterprises__slide.swiper-slide-active {
+.swiper-enterprises__wrapper {
+}
+
+.swiper-enterprises__slide {
+
+}
+
+ .swiper-enterprises__slide.swiper-slide-active { 
+   position: relative;
    display: flex;
    justify-content: space-evenly;
    align-items: center;
    flex-wrap: wrap;
+}
+
+ .swiper-enterprises::before {
+   z-index: 5;
+   position: absolute;
+   top: 0;
+   left: 0;
+   content: "";
+   width: 15%;
+   height: 100%;
+   box-shadow: inset 110px 0px 20px rgba(13, 13, 17, 0.7);
+ } 
+
+.swiper-enterprises::after {
+   z-index: 5;
+   position: absolute;
+   top: 0;
+   right: 0;
+   content: "";
+   width: 15%;
+   height: 100%;
+   box-shadow: inset -110px 0px 20px rgba(13, 13, 17, 0.7);
+}
+
+
+.slide-swiper__brand {
 }
 
 .slide-swiper__brand img {
