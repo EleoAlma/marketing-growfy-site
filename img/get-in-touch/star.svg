@@ -1,14 +1,1 @@
-<svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="63113d978ebd85eb94887924_star-rating-yellow.svg" clip-path="url(#clip0_1_431)">
-<g id="Page-1">
-<g id="Artboard">
-<path id="Star" fill-rule="evenodd" clip-rule="evenodd" d="M10.4687 14.0551L4.7011 17.8345L6.51318 11.1812L1.13651 6.86377L8.02407 6.53118L10.4687 0.0834961L12.9134 6.53118L19.801 6.86377L14.4243 11.1812L16.2364 17.8345L10.4687 14.0551Z" fill="#FFC54F"/>
-</g>
-</g>
-</g>
-<defs>
-<clipPath id="clip0_1_431">
-<rect width="19.625" height="17.9896" fill="white" transform="translate(0.65625 0.0834961)"/>
-</clipPath>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="19" fill="none"><g clip-path="url(#a)"><path fill="#FFC54F" fill-rule="evenodd" d="M10.469 14.055 4.7 17.835l1.812-6.654-5.376-4.317 6.887-.333L10.47.083l2.444 6.448 6.888.333-5.377 4.317 1.812 6.653-5.767-3.779Z" clip-rule="evenodd"/></g><defs><clipPath id="a"><path fill="#fff" d="M.656.083h19.625v17.99H.656z"/></clipPath></defs></svg>

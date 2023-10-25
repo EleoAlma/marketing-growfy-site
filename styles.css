@@ -159,8 +159,8 @@ body {
 @media (max-width: 575.98px) {
    
    .content {
-         margin: 0 0 20px 0;
-      }
+      margin: 0 0 20px 0;
+   }
 
    .link {
       flex: 1 1 100%;
@@ -390,7 +390,7 @@ body {
       z-index: 50;
       overflow-y: auto;
       padding: 50px 40px;
-      background-color: black;
+      background-color: #0D0D11;
    }
 
    .header__nav::before {
@@ -442,8 +442,8 @@ body {
    overflow: hidden;
 }
 
-.button {
-   padding: 19px 20.5px;
+.header__button {
+   padding: 15px 17.5px;
 }
 
 .header__burger {
@@ -458,9 +458,6 @@ body {
 }
 
 /* PAGE */
-
-.page {}
-
 
 /* MAIN */
 
@@ -579,6 +576,8 @@ body {
    .main__content {
       padding: 0 0 25px 0;
    }
+
+
    .main__column {
       row-gap: 20px;
    }
@@ -586,8 +585,12 @@ body {
 
 @media (max-width: 575.98px) {
    .main {
-         padding: 140px 0 26px 0;
-      }
+      padding: 140px 0 26px 0;
+   }
+
+   .main__pictures {
+      column-gap: 25px;
+   }
 
    .main__text:not(:last-child) {
       margin: 0px 0px 20px;
@@ -658,7 +661,7 @@ body {
    content: "";
    width: 15%;
    height: 100%;
-   box-shadow: inset 110px 0px 20px rgba(13, 13, 17, 0.7);
+   box-shadow: inset 95px 0px 20px rgba(13, 13, 17, 0.7);
  } 
 
 .swiper-enterprises::after {
@@ -669,7 +672,7 @@ body {
    content: "";
    width: 15%;
    height: 100%;
-   box-shadow: inset -110px 0px 20px rgba(13, 13, 17, 0.7);
+   box-shadow: inset -95px 0px 20px rgba(13, 13, 17, 0.7);
 }
 
 
@@ -1791,7 +1794,7 @@ body {
 
 @media (max-width: 575.98px) {
    .top-footer { 
-      padding: 50px 0;
+      padding: 40px 0;
    }
    .top-footer__container {
       gap: 30px;
@@ -1804,4 +1807,25 @@ body {
    .top-footer__email {
       width: 100%;
    }
+
+   .top-footer__links {
+      gap: 20px;
+   }
+
+   .top-footer__link {
+      padding: 20px;
+   }
+
+   .nav-footer__list {
+      gap: 19px;
+   }
+
+   .nav-footer__link {
+      font-size: 17.5px;
+   }
+   
+   .bottom-footer {
+      padding: 15px 0;
+   }
+
 }
