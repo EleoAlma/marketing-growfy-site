@@ -1193,6 +1193,10 @@ body {
 }
 
 
+label {
+   display: none;
+}
+
 .rating-clients {
    display: flex;
    align-items: flex-end;
